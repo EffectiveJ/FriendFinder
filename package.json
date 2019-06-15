@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/EffectiveJ/FriendFinder/issues"
   },
-  "homepage": "https://github.com/EffectiveJ/FriendFinder#readme"
+  "homepage": "https://github.com/EffectiveJ/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

@@ -8,10 +8,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require("./app/routing/apiRoutes");
+require("./app/routing/htmlRoutes");
 
 
-server.listen(PORT, function () {
+app.listen(PORT, function () {
     console.log("Server is listening on PORT: " + PORT);
 });
